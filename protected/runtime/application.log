@@ -20763,3 +20763,9 @@ Stack trace:
 #24 {main}
 REQUEST_URI=/bls_project1/index.php?r=healthAndBeauty/index3&id=16
 ---
+2015/03/17 21:12:59 [warning] [application] Failed to set unsafe attribute "id" of "Book".
+in C:\xampp\htdocs\bls_project1\protected\controllers\HealthAndBeautyController.php (129)
+in C:\xampp\htdocs\bls_project1\index.php (13)
+2015/03/17 21:12:59 [warning] [application] Failed to set unsafe attribute "id" of "Bookshelf".
+in C:\xampp\htdocs\bls_project1\protected\controllers\HealthAndBeautyController.php (130)
+in C:\xampp\htdocs\bls_project1\index.php (13)

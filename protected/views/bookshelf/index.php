@@ -40,7 +40,7 @@ $this->breadcrumbs=array(
 	             	 		style="overflow: hidden; padding: 0px; font-size: 0.1px; width: 111px; height: 150px; margin: 5px; border: 0px none rgb(0, 147, 204);">
 	             	 		
 	   						
-	             	 		<img alt="<?php echo $value['name']; ?>" title="<?php echo $value['name']; ?>" 
+	             	 		<img alt="<?php echo $value['name']; ?>" title="<?php echo $value['id']; ?>" 
 	             	 		src="/bls_project1/images/book_img/<?php echo $value['picture']; ?>" 
 	             	 		rel="book_thumb_8" class=" captify  book_thumb" style="border: 0px none; margin: 0px;">
 	               	 	<div class="caption-bottom" style="margin: 0px; z-index: 1; position: relative; opacity: 0.7; width: 116px; height: 38.40625px;"></div>
