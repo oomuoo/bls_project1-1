@@ -35,12 +35,12 @@ $this->breadcrumbs=array(
           	<span style="float:left;padding:8px 0px 36px 0px;height:150px;display:block" >
             	<div style="float: left;" > 
             	<?php //echo '<p><a href="https://www.facebook.com/rscmovement" target="_blank">'. $post['message']. '</a></p>';?>
-            		<a href="index.php?r=bookshelf/index3&id="<?php $value['id']; ?>>
+            		<a href="index.php?r=bookshelf/index3&id="<?php $value['book_id']; ?>>
 	             	 	<div class="caption-wrapper" 
 	             	 		style="overflow: hidden; padding: 0px; font-size: 0.1px; width: 111px; height: 150px; margin: 5px; border: 0px none rgb(0, 147, 204);">
 	             	 		
 	   						
-	             	 		<img alt="<?php echo $value['name']; ?>" title="<?php echo $value['id']; ?>" 
+	             	 		<img alt="<?php echo $value['name']; ?>" title="<?php echo $value['name']; ?>" 
 	             	 		src="/bls_project1/images/book_img/<?php echo $value['picture']; ?>" 
 	             	 		rel="book_thumb_8" class=" captify  book_thumb" style="border: 0px none; margin: 0px;">
 	               	 	<div class="caption-bottom" style="margin: 0px; z-index: 1; position: relative; opacity: 0.7; width: 116px; height: 38.40625px;"></div>
